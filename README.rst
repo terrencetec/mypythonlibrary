@@ -12,6 +12,7 @@ This is a template for creating new python library. Here are some descriptions!
 Here are some features
 
   - print Hello World
+  - print many Hello Worlds!
 
 **Documentation**: https://mypthonlibrary.readthedocs.io
 **Repository**: https://github.com/terrencetec/mypythonlibrary
@@ -27,9 +28,9 @@ Dependencies
 
 Required
 ^^^^^^^^
-  - Package 1
-  - Package 2
-  - Package 3
+* Package
+* Package 2
+* Package 3
 
 pip:
 
@@ -45,7 +46,7 @@ If you use conda:
 
 Optional
 ^^^^^^^^
-  - Package 4
+* Package 4
 
 pip:
 
@@ -103,6 +104,9 @@ How to Contribute
 -----------------
 
 File an issue!
+
+Cheatsheet
+----------
 
 .. |logo| image:: logo.svg
     :alt: Logo
