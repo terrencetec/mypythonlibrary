@@ -9,6 +9,13 @@ My Python Library
 
 This is a template for creating new python library. Here are some descriptions!
 
+Here are some features
+
+  - print Hello World
+
+**Documentation**: https://mypthonlibrary.readthedocs.io
+**Repository**: https://github.com/terrencetec/mypythonlibrary
+
 .. contents::
    :depth: 2
 
