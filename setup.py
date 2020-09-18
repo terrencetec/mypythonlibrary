@@ -189,7 +189,11 @@ setup(
     #         'sample=sample:main',
     #     ],
     # },
-
+    entry_points={
+        'console_scripts': [
+            'hello-world:helloworld:main'
+        ],
+    }
     # List additional URLs that are relevant to your project as a dict.
     #
     # This field corresponds to the "Project-URL" metadata fields:
