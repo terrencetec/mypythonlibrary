@@ -33,35 +33,31 @@ Required
 * Package 2
 * Package 3
 
-pip:
+Optional
+^^^^^^^^
+* Package 4
 
-In principle, if you are using `pip`, you don't have to install dependencies
-beforehand. When you install this package, `pip` will 
-.. code:: bash
-
-   pip install package1 package2 package3
+Note on installing dependencies
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+In principle, if you are using :code:`pip`, you don't have to install
+dependencies beforehand. When you install this package, :code`pip` will
+automatically install the required libraries. However if you are using Conda
+it is best to use its own package manager and not pip unless absolutely
+necessary.
 
 If you use conda:
 
 .. code:: bash
 
-   conda install -c conda-forge package1 package2 package3
+   conda install -c conda-forge package1 package2
 
-Optional
-^^^^^^^^
-* Package 4
-
-pip:
+Now, let's say package 3 is not available, then we can use pip. But,
+be sure to use :code:`which pip` to check if we are using the pip installed
+on the conda environment and not the global one.
 
 .. code:: bash
 
-   pip install package4
-
-Conda:
-
-.. code:: bash
-
-   conda install -c conda-forge package4
+   pip install package3
 
 Install from source
 -------------------
@@ -71,6 +67,12 @@ Install from source
    git clone https://github.com/terrencetec/mypythonlibrary.git
    cd mypythonlibrary
    pip install .
+
+How to Contribute
+=================
+
+Try out the package and file an issue if you find any!
+
 
 For Developers
 ==============
@@ -102,11 +104,6 @@ Documentation
 - **Sphinx**: https://www.sphinx-doc.org/
 - **Read The Docs**: https://readthedocs.org/
 - **Documenting Python Code: A Complete Guide**: https://realpython.com/documenting-python-code/
-
-How to Contribute
------------------
-
-Use the code and file an issue!
 
 Cheat sheet
 -----------
