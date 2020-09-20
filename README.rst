@@ -15,6 +15,7 @@ Here are some features
 * print many Hello Worlds!
 
 **Documentation**: https://mypthonlibrary.readthedocs.io
+
 **Repository**: https://github.com/terrencetec/mypythonlibrary
 
 .. contents::
@@ -28,12 +29,14 @@ Dependencies
 
 Required
 ^^^^^^^^
-* Package
+* Package 1
 * Package 2
 * Package 3
 
 pip:
 
+In principle, if you are using `pip`, you don't have to install dependencies
+beforehand. When you install this package, `pip` will 
 .. code:: bash
 
    pip install package1 package2 package3
@@ -103,10 +106,29 @@ Documentation
 How to Contribute
 -----------------
 
-File an issue!
+Use the code and file an issue!
 
-Cheatsheet
-----------
+Cheat sheet
+-----------
+
+Sphinx
+^^^^^^
+
+Generate documentation base, in docs/,
+
+.. code:: bash
+
+   sphinx-quickstart
+
+Select separate build and source files when prompted.
+
+Preview documentation page with modified source, in docs/
+
+.. code:: bash
+
+   make html
+
+Open index.html with a browser (if this was set as the first page).
 
 .. |logo| image:: logo.svg
     :alt: Logo
@@ -124,6 +146,6 @@ Cheatsheet
    :alt: Read the Docs
    :target: https://mypythonlibrary.readthedocs.io/
 
-.. |license| image:: https://img.shields.io/github/license/terrencetec/kontrol
+.. |license| image:: https://img.shields.io/github/license/terrencetec/mypythonlibrary
     :alt: License
-    :target: https://github.com/terrencetec/kontrol/blob/master/LICENSE
+    :target: https://github.com/terrencetec/mypythonlibrary/blob/master/LICENSE
