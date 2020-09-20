@@ -1,2 +1,2 @@
-sphinx-pdj-theme
+sphinx_pdj_theme
 numpy
