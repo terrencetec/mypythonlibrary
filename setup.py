@@ -31,7 +31,7 @@ setup(
     author_email='terrencetec@gmail.com',  # Optional
     keywords='sample, setuptools, development',  # Optional
     packages=find_packages(),
-    python_requires='>=3.6, <4',
+    python_requires='>=3.5, <4',
     install_requires=[
         'numpy',
     ], # Dependencies here, Optional
