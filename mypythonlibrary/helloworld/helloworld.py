@@ -11,13 +11,13 @@ def helloworlds(n):
 
     Parameters
     ----------
-        n: int
-            The number of times that hellow world will be printed
+    n: int
+        The number of times that hellow world will be printed
 
     Returns
     -------
-        string
-            The string 'Hello World!'.
+    string
+        The string 'Hello World!'.
     """
 
     for _ in range(n):

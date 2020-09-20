@@ -9,10 +9,11 @@ My Python Library
 
 This is a template for creating new python library. Here are some descriptions!
 
-Here are some features
+**features**
 
-* print Hello World
+* print Hello World!
 * print many Hello Worlds!
+* command line tools for printing a lot of Hello Worlds!
 
 **Documentation**: https://mypthonlibrary.readthedocs.io
 
