@@ -51,9 +51,9 @@ exclude_patterns = []
 # a list of builtin themes.
 #
 
-import sphinx_pdj_theme
+# import sphinx_pdj_theme
 html_theme = 'sphinx_pdj_theme'
-htm_theme_path = [sphinx_pdj_theme.get_html_theme_path()]
+# htm_theme_path = [sphinx_pdj_theme.get_html_theme_path()]
 # html_theme = 'sphinx-pdj-theme'
 
 # Add any paths that contain custom static files (such as style sheets) here,
