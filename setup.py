@@ -20,9 +20,14 @@ long_description = (here / 'README.rst').read_text(encoding='utf-8')
 # Arguments marked as "Required" below must be included for upload to PyPI.
 # Fields marked as "Optional" may be commented out.
 
+MAJOR = 0
+MINOR = 0
+MICRO = 0
+VERSION = '%d.%d.%d'%(MAJOR,MINOR,MICRO)
+
 setup(
     name='mypythonlibrary',  # Required
-    version='0.0.0',  # Required
+    version=VERSION,  # Required
     description='A template for creating new python library',  # Optional
     long_description=long_description,  # Optional
     long_description_content_type='text/x-rst',  # Optional (see note above)
