@@ -15,7 +15,7 @@ This is a template for creating new python library. Here are some descriptions!
 * print many Hello Worlds!
 * command line tools for printing a lot of Hello Worlds!
 
-**Documentation**: https://mypthonlibrary.readthedocs.io
+**Documentation**: https://mypythonlibrary.readthedocs.io
 
 **Repository**: https://github.com/terrencetec/mypythonlibrary
 
