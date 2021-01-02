@@ -1,6 +1,7 @@
 """
 """
 import mypythonlibrary.helloworld
+import mypythonlibrary.clitools
 
 
 def test_helloworld():
