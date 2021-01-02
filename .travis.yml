@@ -13,5 +13,4 @@ script:
   py.test  --cov-report term --cov=app/test/
 
 after_success:
-  codecov
   bash <(curl -s https://codecov.io/bash)
