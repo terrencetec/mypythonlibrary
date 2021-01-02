@@ -5,9 +5,13 @@
 
 My Python Library
 =================
+
 *One-line description here!*
 
-|website| |release| |rtd| |license|
+|website| |release| |rtd| |license| |travis-ci| |codecov|
+
+My Python Library
+=================
 
 This is a template for creating new python library. Here are some descriptions!
 
@@ -17,10 +21,14 @@ This is a template for creating new python library. Here are some descriptions!
 * print many Hello Worlds!
 * command line tools for printing a lot of Hello Worlds!
 
-**Documentation**: https://mypthonlibrary.readthedocs.io
+**Documentation**: https://mypythonlibrary.readthedocs.io
 
 **Repository**: https://github.com/terrencetec/mypythonlibrary
 
+
+.. |logo| image:: docs/source/_static/logo.svg
+    :alt: Logo
+    :target: https://github.com/terrencetec/mypythonlibrary
 
 .. |website| image:: https://img.shields.io/badge/website-mypythonlibrary-blue.svg
     :alt: Website
@@ -37,6 +45,15 @@ This is a template for creating new python library. Here are some descriptions!
 .. |license| image:: https://img.shields.io/github/license/terrencetec/mypythonlibrary
     :alt: License
     :target: https://github.com/terrencetec/mypythonlibrary/blob/master/LICENSE
+
+.. |travis-ci| image:: https://travis-ci.com/terrencetec/mypythonlibrary.svg?branch=master
+    :alt: travis-ci
+    :target: https://travis-ci.com/terrencetec/mypythonlibrary
+
+.. |codecov| image:: https://codecov.io/gh/terrencetec/mypythonlibrary/branch/master/graph/badge.svg?token=NMEBAYFE2N
+    :alt: codecov
+    :target: https://codecov.io/gh/terrencetec/mypythonlibrary
+
 
 .. toctree::
    :maxdepth: 2
