@@ -3,14 +3,11 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-|logo|
-
+My Python Library
+=================
 *One-line description here!*
 
 |website| |release| |rtd| |license|
-
-My Python Library
-=================
 
 This is a template for creating new python library. Here are some descriptions!
 
@@ -24,9 +21,6 @@ This is a template for creating new python library. Here are some descriptions!
 
 **Repository**: https://github.com/terrencetec/mypythonlibrary
 
-.. |logo| image:: logo.svg
-    :alt: Logo
-    :target: https://github.com/terrencetec/mypythonlibrary
 
 .. |website| image:: https://img.shields.io/badge/website-mypythonlibrary-blue.svg
     :alt: Website
