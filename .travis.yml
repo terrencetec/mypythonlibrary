@@ -13,6 +13,4 @@ script:
   py.test  --cov-report term --cov=mypythonlibrary
 
 after_success:
-  codecov
-  
   bash <(curl -s https://codecov.io/bash)
