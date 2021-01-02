@@ -128,7 +128,7 @@ Preview documentation page with modified source, in docs/
 
 Open index.html with a browser (if this was set as the first page).
 
-.. |logo| image:: docs/_static/logo.svg
+.. |logo| image:: docs/source/_static/logo.svg
     :alt: Logo
     :target: https://github.com/terrencetec/mypythonlibrary
 
