@@ -2,7 +2,7 @@
 
 *One-line description here!*
 
-|website| |release| |rtd| |license| |travis-ci| |codecov|
+|website| |release| |rtd| |license| |build_and_tests| |codecov|
 
 My Python Library
 =================
@@ -148,9 +148,9 @@ Open index.html with a browser (if this was set as the first page).
     :alt: License
     :target: https://github.com/terrencetec/mypythonlibrary/blob/master/LICENSE
 
-.. |travis-ci| image:: https://travis-ci.com/terrencetec/mypythonlibrary.svg?branch=master
-    :alt: travis-ci
-    :target: https://travis-ci.com/terrencetec/mypythonlibrary
+.. |build_and_tests| image:: https://github.com/terrencetec/mypythonlibrary/actions/workflows/github-action-ci.yml/badge.svg
+   :alt: built and tests
+   :target: https://github.com/terrencetec/mypythonlibrary/actions/workflows/github-action-ci.yml
 
 .. |codecov| image:: https://codecov.io/gh/terrencetec/mypythonlibrary/branch/master/graph/badge.svg?token=NMEBAYFE2N
     :alt: codecov
