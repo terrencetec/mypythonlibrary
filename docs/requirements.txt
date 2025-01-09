@@ -6,4 +6,3 @@ nbsphinx
 docutils<0.18
 recommonmark
 sphinx-rtd-theme
-imghdr
